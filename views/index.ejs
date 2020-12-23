@@ -1,0 +1,26 @@
+<%- include layout/header.ejs %>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="d-flex align-items-center justify-content-center" style="height: 450px">
+        <form action="/room" method="POST">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="New Room" name="room" required>
+            <div class="input-group-append">
+              <button class="btn btn-secondary" type="submit">Create</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="room-container">
+    <% Object.keys(rooms).forEach(room => { %>
+      <div><%= room %></div>
+      <a href="/room/<%= room %>">Join</a>
+    <% }) %>
+  </div> -->
+
+</div>
+<%- include layout/footer.ejs %>

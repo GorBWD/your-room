@@ -1,0 +1,16 @@
+<%- include layout/header.ejs %>
+<div class="container">
+  <div id="message-container" class="mt-2"></div>
+  <form id="message-form">
+    <!-- <input type="text" id="message-input">
+    <button type="submit" id="send-button">Send</button> -->
+    <div class="input-group">
+      <textarea class="form-control" id="message-input" aria-label="With textarea" required></textarea>
+      <div class="input-group-prepend">
+        <button type="submit" class="input-group-text">Send</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<%- include layout/footer.ejs %>

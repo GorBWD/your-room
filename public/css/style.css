@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#message-container {
+    max-width: 1200px;
+    height: 450px;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+#message-container div {
+    padding: 7px;
+    margin: 5px 0 10px 0;
+}
+
+#message-container .you-message {
+    background: #555759;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#message-container .members-message {
+    border-radius: 10px;
+    border: 2px solid #555759;
+}
+
+#message-form {
+    position: fixed;
+    bottom: 20px;
+    max-width: 1000px;
+    width: 74%;
+}
+
